@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+https://9f95e3d0c90b46ff9b173b3576ffe73e.codepen.website
+
+<head>
+  <link href="https://meyerweb.com/eric/tools/css/reset/reset.css" Rel="stylesheet">
+  <title>Ky Kyler</title>
+  <style>
+    header {
+      text-align: center;
+    }
+
+    a {
+      color: white;
+    }
+
+    img {
+      margin: 25px 0px 0px 0px;
+      border: 8px solid white;
+      border-radius: 125px;
+    }
+
+    ul {
+      padding: 20px 0px 20px 0px;
+      margin: 75px 0px 0px 0px;
+      background: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    li {
+      display: inline;
+      font-size: 28px;
+      margin: 0px 50px 0px 50px;
+    }
+
+    @media (max-width: 500px) {
+      body {
+        background: red;
+      }
+      h1 {
+        font-size: 36px;
+      }
+      li {
+        display: block;
+        padding: 20px;
+      }
+    }
+
+    article {
+      max-width: 1430px;
+      padding: 25px 50px 50px 0px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    body {
+      text-align: center;
+      background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+      background-size: cover;
+      color: White;
+      font-family: georgia;
+    }
+
+    p {
+      font-size: 22px;
+      padding: 25px;
+    }
+
+    h1 {
+      font-family: @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+      font-size: 52px;
+      padding: 30px 10px 25px 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Ky's Tech Blog</h1>
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3126312/Screenshot%20(154).png" alt="Graduation station" style="max-width:200px;max-height:200px;">
+    <ul>
+      <li><a href="http://www.stemtech241.com/class-201">About Me</a></li>
+      <li><a href="http://www.stemtech241.com/gallery--events">My Work</a></li>
+      <li><a href="http://www.stemtech241.com/tech--resources">Tech Resources</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Ky's Mission Statement</h2>
+    <p>I aim to teach students and educators everywhere, that technology is not just a tool, computer science isn't just Scratch, and programming is not a boy's field, girls code too! I want my learners to become innovators, not just consumers.</p>
+    <p>Follow me on Twitter for the latest in EdTech!</p>
+    <a href="https://twitter.com/Skysthelimit198?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @Skysthelimit198</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </article>
+</body>
+
+</html>
